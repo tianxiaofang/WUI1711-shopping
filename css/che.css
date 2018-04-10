@@ -6,7 +6,9 @@
 	bottom: 1.96rem;
 	overflow-y: scroll;
 }
-
+.che_all::-webkit-scrollbar{
+	display: none;
+}
 .che_zi{
 	text-align: center;
 	line-height: 0.98rem;
@@ -15,7 +17,7 @@
 .che_content1{
 	width: 100%;
 	height: 4.5rem;
-	border-bottom: 0.1rem solid #cac8ca;
+	border-bottom: 0.1rem solid #eee;
 }
 .che_content1_item1{
 	margin-left: 0.24rem;
@@ -30,7 +32,7 @@
 	line-height: 0.98rem;
 }
 .che_wenzi{
-	font-size: 0.4rem;
+	font-size: 0.6rem;
 	letter-spacing: 0.1rem;
 }
 .che_item2_con1{

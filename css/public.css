@@ -1,6 +1,7 @@
 *{
 	margin: 0;    /* body 边框 */
 	padding: 0;
+	border: none;
 	text-decoration: none; /*  a标签 */
 	font-style: normal;
 	list-style: none;
@@ -10,12 +11,12 @@
 	box-sizing: border-box;   /* 盒子的阴影 */
 }
 @font-face {
-  font-family: 'iconfont';  /* project id 576622 */
-  src: url('http://at.alicdn.com/t/font_576622_0u2f1ud3pf3tmx6r.eot');
-  src: url('http://at.alicdn.com/t/font_576622_0u2f1ud3pf3tmx6r.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_576622_0u2f1ud3pf3tmx6r.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_576622_0u2f1ud3pf3tmx6r.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_576622_0u2f1ud3pf3tmx6r.svg#iconfont') format('svg');
+	font-family: 'iconfont';  /* project id 576622 */
+	src: url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.eot');
+	src: url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.woff') format('woff'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.svg#iconfont') format('svg');
 }
 header{
 	width: 100%;
@@ -55,7 +56,7 @@ header{
 	color: #fff;
 	text-align: center;
 	line-height: 0.98rem;
-	font-weight: 0.8;
+	font-weight: 800;
 	letter-spacing: 0.15rem;
 	font-family:"微软雅黑";
 }
@@ -81,7 +82,7 @@ header{
 /*底部*/
 footer{
 	width: 100%;
-	height: 0.89rem;
+	height: 0.98rem;
 	border-top: 0.01rem solid #c3c4c9;
 	display: flex;
 	justify-content: space-between;
@@ -137,6 +138,7 @@ main::-webkit-scrollbar{
 	top: 0.98rem;
 	bottom: .98rem;
 	overflow-y: scroll;
+	background: #eee;
 }
 .che::-webkit-scrollbar{
 	display: none;
